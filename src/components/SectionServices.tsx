@@ -36,7 +36,7 @@ export function SectionServices(){
                 </div>
             </Container>
             <div className="absolute top-0 right-0 w-[32%] h-full bg-gray-phone flex items-center">
-                <Image src={ImagePhone} alt="Phone" className="translate-x-[-42%] w-200 h-300"/>
+                <Image src={ImagePhone} alt="Phone" className="translate-x-[-42%] w-[250px] h-[500px]"/>
             </div>
         </section>
     )

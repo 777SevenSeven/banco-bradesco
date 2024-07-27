@@ -11,7 +11,7 @@ export function SectionHero(){
     return(
         <section className="w-full h-[704px] bg-img_bg_hero bg-no-repeat bg-center bg-cover">
         <Container>
-            <div className="flex-1 max-w-[500px]">
+            <div className="flex-1 max-w-[580px]">
                 <h1 className="text-white text-7xl font-bold mb-4">Você no futuro das finanças com o Bradesco.</h1>
                 <p className="text-white text-xl max-w[408px] mb-8">O nosso aplicativo oferece todas as soluções bancárias que você precisa, com a segurança e a confiança que você merece. Simples, eficiente e ao seu alcance.</p>
                 <div className="flex gap-4 mb-24">
