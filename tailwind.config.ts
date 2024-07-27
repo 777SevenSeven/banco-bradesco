@@ -7,12 +7,19 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    backgroundImage: {
+      'img_bg_hero': "url('../assets/bg-red-bradesco.jpg')",
+    },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+      colors: {
+      'primary-blue': '#002A6C',
+      'primary-orange': '#C8102E',
+      'primary-gray': '#4A4A4A',
+      'second-gray': '#F4F4F4',
+      'gray-phone': '#F1F1F1',
+      'txt-gray': '#7A7786',
+      'opacity-gray': 'rgba(100, 80, 57, 0.1)'
+      }
     },
   },
   plugins: [],
